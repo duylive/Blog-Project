@@ -26,7 +26,7 @@
                         <div class="card-footer text-muted">
                             <i style='font-size:16px' class='fas'>&#xf304;</i> {{$post->created_at}} by
                             <i style="font-size:16px" class="fa">&#xf007;</i>
-                            <a href="#">{{$post->user->name}}</a>
+                            <a href="#">{{$post->user_id}}</a>
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -41,4 +41,5 @@
         </div>
     </div>
 @endsection
+
 

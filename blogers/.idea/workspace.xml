@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="331ebbc6-53f3-40cb-9e49-0c2734b56039" name="Default Changelist" comment="" />
+    <list default="true" id="331ebbc6-53f3-40cb-9e49-0c2734b56039" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/posts/listSearch.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/posts/detail.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/detail.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/posts/list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/list.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/posts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/master.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +21,9 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -117,6 +129,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1eKqnFEMu2Er6WCy21FZtBWNY5a" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -124,6 +139,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
   </component>
@@ -150,6 +166,9 @@
       <updated>1594080797672</updated>
       <workItem from="1594080810443" duration="1982000" />
       <workItem from="1594091617540" duration="7725000" />
+      <workItem from="1594134412829" duration="8770000" />
+      <workItem from="1594156248686" duration="8430000" />
+      <workItem from="1594179366147" duration="227000" />
     </task>
     <servers />
   </component>
@@ -161,9 +180,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1594095796411" />
-    <state x="517" y="283" key="NewPhpFileDialog" timestamp="1594094526293">
+    <state x="517" y="283" key="NewPhpFileDialog" timestamp="1594160203325">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="517" y="283" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1594094526293" />
+    <state x="517" y="283" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1594160203325" />
   </component>
 </project>

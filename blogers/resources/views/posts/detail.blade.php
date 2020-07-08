@@ -8,9 +8,14 @@
             <p class="card-text">{!!$post->content!!}</p>
         </div>
         <div class="card-footer text-muted">
-            Số lượt xem: {{ $post->view_count }}
-            {{$post->created_at}} by
+            <i style='font-size:16px' class='fas'>&#xf304;</i> {{$post->created_at}} by
+            <i style="font-size:16px" class="fa">&#xf007;</i>
             <a href="#">{{$post->user->name}}</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Số lượt xem: {{ $post->view_count }} <i style="font-size:16px" class="fa">&#xf06e;</i>
         </div>
         <a href="{{ route('posts.edit', $post->id) }}" class="btn btn-primary" >Edit</a>
         <a href="{{ route('posts.destroy', $post->id) }}" class="btn btn-danger" onclick="return confirm('You want to delete ?')">Delete</a>

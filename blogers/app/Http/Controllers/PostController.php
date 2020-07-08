@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Post;
+use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
@@ -91,7 +92,9 @@ class PostController extends Controller
     public function search(Request $request)
     {
         $keyword = $request->keyword;
-        $posts = DB::table('posts')->where('title', 'LIKE', '%' . $keyword . '%')->paginate(2);
-        return view('posts.list', compact('posts'));
+        $posts = DB::table('posts')
+                ->where('title', 'LIKE', '%'. $keyword. '%')
+                ->paginate(2);
+        return view('posts.listSearch', compact('posts'));
     }
 }
