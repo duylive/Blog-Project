@@ -19,6 +19,16 @@
         </div>
         <a href="{{ route('posts.edit', $post->id) }}" class="btn btn-primary" >Edit</a>
         <a href="{{ route('posts.destroy', $post->id) }}" class="btn btn-danger" onclick="return confirm('You want to delete ?')">Delete</a>
+        <div class="card-footer text-muted">
+            <form method="post" action="/{{$post->id}}/comment" >
+            {{ csrf_field() }}
+            <div class="form-group">
+                <label>Writing your comment</label>
+                <textarea class="form-control" name="content_cmt"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        </div>
     </div>
 @endsection
 

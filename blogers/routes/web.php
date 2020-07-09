@@ -18,6 +18,17 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::prefix('categories')->group(function() {
+   Route::get('/', 'CategoryController@index')-> name('categories.index');
+   Route::get('{id}/detail', 'CategoryController@detail')->name('categories.detail');
+   Route::get('/create','CategoryController@create')->name('categories.create');
+   Route::post('/create', 'CategoryController@store')->name('categories.store');
+   Route::get('{id}/edit','CategoryController@edit')->name('categories.edit');
+   Route::post('{id/edit', 'CategoryController@update')->name('categories.update');
+   Route::get('{id}/destroy', 'CategoryController@destroy')->name('categories.destroy');
+   Route::get('/search', 'CategoryController@search')->name('categories.search');
+});
+
 Auth::routes();
 
 Route::group(['middleware' => 'auth'], function () {
@@ -31,8 +42,11 @@ Route::group(['middleware' => 'auth'], function () {
         Route::post('{id}/edit', 'PostController@update')->name('posts.update');
         Route::get('{id}/destroy', 'PostController@destroy')->name('posts.destroy');
         Route::get('/search', 'PostController@search')->name('posts.search');
+        Route::resource('comments', 'CommentsController');
     });
 });
+
+Route::post('{id}/comment', 'CommentController@postComment');
 
 Route::prefix('users')->group(function () {
     Route::get('/', 'UserController@index')->name('users.index');

@@ -2,9 +2,29 @@
 
 namespace App\Http\Controllers;
 
+use App\Comment;
+use\App\Post;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class CommentController extends Controller
 {
-    //
+    public function indexComment()
+    {
+        $comments = Comment::all();
+        return view('posts.list', compact('comments'));
+    }
+
+    public function postComment(Request $request, $id)
+    {
+        $post_id = $id;
+        $post = Post::find($id);
+        $comment = new Comment();
+        $comment->content = $request->content_cmt;
+        $comment->post_id = $post_id;
+        $comment->user_id = Auth::id();
+        $comment->save();
+        return redirect("posts/$id/detail");
+    }
+
 }

@@ -20,11 +20,11 @@ class PostController extends Controller
     public function detail($id)
     {
         $postKey = 'post_' . $id;
-        if(!Session::has($postKey)) {
+        if (!Session::has($postKey)) {
             Post::where('id', $id)->increment('view_count');
         }
         $post = Post::findOrFail($id);
-        return view('posts.detail',compact('post'));
+        return view('posts.detail', compact('post'));
     }
 
     public function create()
@@ -93,8 +93,9 @@ class PostController extends Controller
     {
         $keyword = $request->keyword;
         $posts = DB::table('posts')
-                ->where('title', 'LIKE', '%'. $keyword. '%')
-                ->paginate(2);
+            ->where('title', 'LIKE', '%' . $keyword . '%')
+            ->latest()
+            ->paginate(2);
         return view('posts.listSearch', compact('posts'));
     }
 }
