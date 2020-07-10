@@ -8,8 +8,8 @@
             <p class="card-text">{!!$post->content!!}</p>
         </div>
         <div class="card-footer text-muted">
-            <i style='font-size:16px' class='fas'>&#xf304;</i> {{$post->created_at}} by
-            <i style="font-size:16px" class="fa">&#xf007;</i>
+            <i style="font-size:18px" class="fa">&#xf017;</i> {{$post->created_at}} by
+            <i style='font-size:16px' class='fas'>&#xf304;</i>
             <a href="#">{{$post->user->name}}</a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -24,10 +24,15 @@
                 @foreach($post->comments as $cmt)
                     <div class="card mb-4">
                         <div class="card-body">
-                            <i style="font-size:16px" class="fa">&#xf007;</i>
-                            <a href="#">{{$cmt->user->name}}</a>
                             <i style='font-size:16px' class='fas'>&#xf304;</i>
-                            at
+                            <a href="#">{{$cmt->user->name}}</a> :
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <i style="font-size:18px" class="fa">&#xf017;</i>
                             {{$cmt->created_at}}
                             <hr>
                             <p class="card-title">{{$cmt->content}}</p>
