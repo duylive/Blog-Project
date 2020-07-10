@@ -9,11 +9,6 @@ use Illuminate\Support\Facades\Auth;
 
 class CommentController extends Controller
 {
-    public function indexComment()
-    {
-        $comments = Comment::all();
-        return view('posts.list', compact('comments'));
-    }
 
     public function postComment(Request $request, $id)
     {
