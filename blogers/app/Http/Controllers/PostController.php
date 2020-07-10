@@ -25,8 +25,7 @@ class PostController extends Controller
             Post::where('id', $id)->increment('view_count');
         }
         $post = Post::findOrFail($id);
-        $comments = Comment::all();
-        return view('posts.detail', compact('post', 'comments'));
+        return view('posts.detail', compact('post'));
     }
 
     public function create()
