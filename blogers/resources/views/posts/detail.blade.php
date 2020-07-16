@@ -17,7 +17,7 @@
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             Số lượt xem: {{ $post->view_count }} <i style="font-size:16px" class="fa">&#xf06e;</i>
         </div>
-        @if(Auth::user())
+        @if(Auth::user()->id == $post->user_id)
         <a href="{{ route('posts.edit', $post->id) }}" class="btn btn-primary" >Edit</a>
         <a href="{{ route('posts.destroy', $post->id) }}" class="btn btn-danger" onclick="return confirm('You want to delete ?')">Delete</a>
         @endif
