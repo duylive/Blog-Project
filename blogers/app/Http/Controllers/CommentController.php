@@ -28,15 +28,11 @@ class CommentController extends Controller
     {
         $post_id = $id;
         $post = Post::find($id);
-        $comment = Comment::findOrFail($post_id);
+        $comment = Comment::find($post_id);
+        $comment->post_id = $post_id;
         $comment->delete();
-        return redirect("posts/$id/detail");
+        return back();
     }
 
-    public function editComment($id)
-    {
-        $comment = Comment::findOrFail($id);
-
-    }
 
 }
