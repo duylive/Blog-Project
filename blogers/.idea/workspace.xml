@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="331ebbc6-53f3-40cb-9e49-0c2734b56039" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/JS/commentJS" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CommentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CommentController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/posts/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/posts/detail.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/detail.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/posts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/master.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/posts/menu_top.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/menu_top.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/users/menu_top.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/menu_top.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +188,8 @@
       <workItem from="1594828272252" duration="9702000" />
       <workItem from="1594848022961" duration="7100000" />
       <workItem from="1594857974027" duration="1056000" />
-      <workItem from="1594869934845" duration="5349000" />
+      <workItem from="1594869934845" duration="5424000" />
+      <workItem from="1594912280654" duration="4033000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1594179672226</created>
@@ -242,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594402886687</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update">
+      <created>1594875743161</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1594875743161</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,17 +260,17 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1594317830515" />
-    <state x="306" y="0" key="CommitChangelistDialog2" timestamp="1594402883593">
+    <state x="306" y="0" key="CommitChangelistDialog2" timestamp="1594916686666">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="306" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1594402883593" />
+    <state x="306" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1594916686666" />
     <state x="517" y="283" key="NewPhpFileDialog" timestamp="1594659215627">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="517" y="283" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1594659215627" />
-    <state x="275" y="93" key="Vcs.Push.Dialog.v2" timestamp="1594402892095">
+    <state x="275" y="93" key="Vcs.Push.Dialog.v2" timestamp="1594875749793">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="93" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1594402892095" />
+    <state x="275" y="93" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1594875749793" />
   </component>
 </project>

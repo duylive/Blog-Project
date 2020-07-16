@@ -50,6 +50,9 @@
             </div>
             <button type="submit" class="btn btn-primary" id="btn-cmt">Submit</button>
         </form>
+                @else
+             <a class="nav-link" href="{{ route('login') }}">{{ __('You must LOGIN to writing comments.') }}</a>
+                 <a class="nav-link" href="{{ route('register') }}">{{ __('If you do not have an account please click in here to REGISTER ') }}</a>
                 @endif
         </div>
     </div>
