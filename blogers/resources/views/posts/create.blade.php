@@ -12,7 +12,7 @@
                     {{ csrf_field() }}
                     <div class="form-group">
                         <label>Title blog</label>
-                        <input type="text" class="form-control" name="title"  placeholder="Enter name" required>
+                        <textarea type="text" class="form-control" name="title"  placeholder="Enter name" required></textarea>
                     </div>
                     <div class="form-group">
                         <label for="inputFileName">Image</label>
@@ -27,7 +27,7 @@
                     </div>
                     <div class="form-group">
                         <label>Description</label>
-                        <input type="text" class="form-control" name="description" required>
+                        <textarea type="text" class="form-control" name="description" required></textarea>
                     </div>
                     <div class="form-group">
                         <label for="exampleInputEmail1">Content</label>

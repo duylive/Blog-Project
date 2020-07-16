@@ -18,6 +18,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
 Route::prefix('categories')->group(function() {
    Route::get('/', 'CategoryController@index')-> name('categories.index');
    Route::get('{id}/detail', 'CategoryController@detail')->name('categories.detail');
@@ -31,19 +32,22 @@ Route::prefix('categories')->group(function() {
 
 Auth::routes();
 
-Route::group(['middleware' => 'auth'], function () {
-    Route::get('/', 'HomeController@index')->name('home');
-    Route::prefix('posts')->group(function () {
-        Route::get('/', 'PostController@index')->name('posts.index');
-        Route::get('{id}/detail', 'PostController@detail')->name('posts.detail');
+Route::group(['prefix' => 'posts'], function () {
+  //  Route::get('/', 'HomeController@index')->name('home');
+    Route::group(['middleware' => 'auth'], function () {
+       // Route::get('/', 'PostController@index')->name('posts.index');
+       // Route::get('{id}/detail', 'PostController@detail')->name('posts.detail');
         Route::get('/create', 'PostController@create')->name('posts.create');
         Route::post('/create', 'PostController@store')->name('posts.store');
         Route::get('{id}/edit', 'PostController@edit')->name('posts.edit');
         Route::post('{id}/edit', 'PostController@update')->name('posts.update');
         Route::get('{id}/destroy', 'PostController@destroy')->name('posts.destroy');
-        Route::get('/search', 'PostController@search')->name('posts.search');
+       // Route::get('/search', 'PostController@search')->name('posts.search');
         Route::resource('comments', 'CommentsController');
     });
+    Route::get('/', 'PostController@index')->name('posts.index');
+    Route::get('{id}/detail', 'PostController@detail')->name('posts.detail');
+    Route::get('/search', 'PostController@search')->name('posts.search');
 });
 
 Route::post('{id}/comment', 'CommentController@postComment');

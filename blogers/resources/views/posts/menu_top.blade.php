@@ -5,6 +5,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <!-- Authentication Links -->
+
                 @guest
                     <li class="nav-item">
                         <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
@@ -22,7 +23,7 @@
 
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="{{ route('users.detail', $user ?? Auth::user()->id ) }}">Your Profile</a>
-                            <a class="dropdown-item" href="{{ route('posts.create') }}">Create new blog</a>
+                            <a class="dropdown-item" href="{{ route('posts.create') }}">Create new posts</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="{{ route('logout') }}"
                                onclick="event.preventDefault();
