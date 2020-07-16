@@ -20,8 +20,23 @@ class CommentController extends Controller
         $comment->user_id = Auth::id();
         $comment->save();
         return redirect("posts/$id/detail");
-     //   return redirect("posts/$id/detail"); //
-     //   return response()->json($comment); //
+        //   return redirect("posts/$id/detail"); //
+        //   return response()->json($comment); //
+    }
+
+    public function destroyComment($id)
+    {
+        $post_id = $id;
+        $post = Post::find($id);
+        $comment = Comment::findOrFail($post_id);
+        $comment->delete();
+        return redirect("posts/$id/detail");
+    }
+
+    public function editComment($id)
+    {
+        $comment = Comment::findOrFail($id);
+
     }
 
 }

@@ -38,6 +38,9 @@
                             {{$cmt->created_at}}
                             <hr>
                             <p class="card-title">{{$cmt->content}}</p>
+                            @if(Auth::user()->id == $cmt->user_id )
+                                <a href="{{route('comments.destroy', $cmt->id)}}" class="btn btn-danger" onclick="return confirm('You want to delete ?')">Delete</a>
+                                @endif
                         </div>
                     </div>
                 @endforeach

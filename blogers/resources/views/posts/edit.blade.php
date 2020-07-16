@@ -38,7 +38,7 @@
                         </script>
                     </div>
                     <button type="submit" class="btn btn-primary">Edit</button>
-                    <button class="btn btn-secondary" onclick="window.history.go(-1); return false;">Hủy</button>
+                    <button class="btn btn-secondary" onclick="window.history.go(-1); return false;">Cancel</button>
                 </form>
             </div>
         </div>

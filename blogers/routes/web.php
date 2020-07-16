@@ -51,6 +51,7 @@ Route::group(['prefix' => 'posts'], function () {
 });
 
 Route::post('{id}/comment', 'CommentController@postComment');
+Route::get('{id}/comment', 'CommentController@destroyComment')->name('comments.destroy');
 
 Route::prefix('users')->group(function () {
     Route::get('/', 'UserController@index')->name('users.index');
