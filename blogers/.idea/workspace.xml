@@ -4,10 +4,9 @@
     <list default="true" id="331ebbc6-53f3-40cb-9e49-0c2734b56039" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CommentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CommentController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/JS/commentJS" beforeDir="false" afterPath="$PROJECT_DIR$/public/JS/commentJS" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/posts/detail.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/detail.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/posts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/master.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +192,8 @@
       <workItem from="1594857974027" duration="1056000" />
       <workItem from="1594869934845" duration="5424000" />
       <workItem from="1594912280654" duration="9785000" />
-      <workItem from="1594934257357" duration="6715000" />
+      <workItem from="1594934257357" duration="6799000" />
+      <workItem from="1595113206172" duration="1970000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1594179672226</created>
@@ -265,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594924321587</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="update">
+      <created>1594941172730</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1594941172730</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,17 +292,17 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1594317830515" />
-    <state x="306" y="0" key="CommitChangelistDialog2" timestamp="1594924319353">
+    <state x="306" y="0" key="CommitChangelistDialog2" timestamp="1594941162653">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="306" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1594924319353" />
+    <state x="306" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1594941162653" />
     <state x="517" y="283" key="NewPhpFileDialog" timestamp="1594659215627">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="517" y="283" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1594659215627" />
-    <state x="275" y="93" key="Vcs.Push.Dialog.v2" timestamp="1594924324788">
+    <state x="275" y="93" key="Vcs.Push.Dialog.v2" timestamp="1594941181351">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="93" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1594924324788" />
+    <state x="275" y="93" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1594941181351" />
   </component>
 </project>

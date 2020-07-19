@@ -55,7 +55,7 @@
                 <label for="comment">Leave a your idea:</label>
                 <textarea class="form-control" name="content_cmt" ></textarea>
             </div>
-            <button type="submit" class="btn btn-primary" id="btn-cmt">Submit</button>
+            <button type="button" class="btn btn-primary" id="btn-cmt" data-id="{{$post->id}}">Submit</button>
         </form>
                 @else
              <a class="nav-link" href="{{ route('login') }}">{{ __('You must LOGIN to writing comments.') }}</a>
