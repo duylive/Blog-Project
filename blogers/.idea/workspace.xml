@@ -2,9 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="331ebbc6-53f3-40cb-9e49-0c2734b56039" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/category/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/category/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/category/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/category/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/category/css/heroic-features.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/category/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/category/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/category/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/category/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/category/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/category/vendor/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/category/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/category/vendor/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/category/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/category/vendor/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/category/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/category/vendor/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/category/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/category/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/category/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/category/vendor/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/category/vendor/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/category/vendor/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/category/vendor/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/category/vendor/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/category/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/category/vendor/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/category/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/category/vendor/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/category/vendor/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/category/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/category/vendor/jquery/jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/category/vendor/jquery/jquery.slim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/category/vendor/jquery/jquery.slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/category/vendor/jquery/jquery.slim.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/categories/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/categories/detail.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/categories/list.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/categories/master.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/categories/menu_footer.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/categories/menu_top.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/menu_top.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/menu_top.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +237,8 @@
       <workItem from="1595127804254" duration="733000" />
       <workItem from="1595269116585" duration="1176000" />
       <workItem from="1595291142791" duration="394000" />
-      <workItem from="1595347689116" duration="3367000" />
+      <workItem from="1595347689116" duration="4120000" />
+      <workItem from="1595369647481" duration="4701000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1594179672226</created>
@@ -288,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595270285362</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="update">
+      <created>1595351199104</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1595351199104</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,17 +358,17 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1594317830515" />
-    <state x="306" y="0" key="CommitChangelistDialog2" timestamp="1595270282487">
+    <state x="306" y="0" key="CommitChangelistDialog2" timestamp="1595351196666">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="306" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1595270282487" />
-    <state x="517" y="283" key="NewPhpFileDialog" timestamp="1594659215627">
+    <state x="306" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1595351196666" />
+    <state x="517" y="283" key="NewPhpFileDialog" timestamp="1595370324900">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="517" y="283" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1594659215627" />
-    <state x="275" y="93" key="Vcs.Push.Dialog.v2" timestamp="1595270290465">
+    <state x="517" y="283" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1595370324900" />
+    <state x="275" y="93" key="Vcs.Push.Dialog.v2" timestamp="1595351214578">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="93" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1595270290465" />
+    <state x="275" y="93" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1595351214578" />
   </component>
 </project>

@@ -17,7 +17,7 @@ class CategoryController extends Controller
     public function detail($id)
     {
         $category = Category::findOrFail($id);
-        return view('');
+        return view('categories.detail');
     }
 
     public function create()
