@@ -22,7 +22,6 @@ Route::get('/abc', function(){
    return view('categories.master');
 });
 
-
 Route::prefix('categories')->group(function() {
    Route::get('/', 'CategoryController@index')-> name('categories.index');
    Route::get('{id}/detail', 'CategoryController@detail')->name('categories.detail');
