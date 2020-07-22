@@ -9,30 +9,31 @@
                     @csrf
                     <div class="form-group">
                         <label>Name</label>
-                        <input type="text" class="form-control" name="name" value="{{ $user->name }}" required>
+                        <input type="text" class="form-control" name="name" value="{{ $user->name }}" >
                     </div>
                     <div class="form-group">
                         <label>Birthday</label>
-                        <input type="date" class="form-control" name="birthday" value="{{ $user->birthday }}" required></div>
+                        <input type="date" class="form-control" name="birthday" value="{{ $user->birthday }}" >
+                    </div>
                     <div class="form-group">
                         <label>Gender</label>
-                        <input type="text" class="form-control" name="gender" value="{{ $user->gender }}" required>
+                        <input type="text" class="form-control" name="gender" value="{{ $user->gender }}" >
                     </div>
                     <div class="form-group">
                         <label>Email</label>
-                        <input type="email" class="form-control" name="email" value="{{ $user->email }}" required>
+                        <input type="email" class="form-control" name="email" value="{{ $user->email }}" >
                     </div>
                     <div class="form-group">
                         <label>Phone</label>
-                        <input type="number" class="form-control" name="phone" value="{{ $user->phone }}" required>
+                        <input type="number" class="form-control" name="phone" value="{{ $user->phone }}" >
                     </div>
                     <div class="form-group">
                         <label>Address</label>
-                        <input type="text" class="form-control" name="address" value="{{ $user->address }}" required>
+                        <input type="text" class="form-control" name="address" value="{{ $user->address }}" >
                     </div>
                     <div class="form-group">
                         <label>Password</label>
-                        <input type="password" class="form-control" name="password" value="{{ $user->password }}" required>
+                        <input type="password" class="form-control" name="password" value="{{ $user->password }}" >
                     </div>
                     <div class="form-group">
                         <label>Role</label>
