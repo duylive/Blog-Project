@@ -10,6 +10,8 @@
 
     <title>Categories</title>
 
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
     <!-- Bootstrap core CSS -->
     <link href="{{asset('category/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
 

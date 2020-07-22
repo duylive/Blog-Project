@@ -67,13 +67,30 @@ class PostController extends Controller
     {
         $post = Post::findOrFail($id);
         $post->title = $request->title;
-        $post->image = $request->image;
+        if (!$request->hasFile('inputFile')) {
+            $post->image = $request->inputFile;
+        } else {
+            $file = $request->file('inputFile');
+
+            //Lấy ra định dạng và tên mới của file từ request
+            $fileExtension = $file->getClientOriginalExtension();
+            $fileName = $request->inputFileName;
+
+            // Gán tên mới cho file trước khi lưu lên server
+            $newFileName = "$fileName.$fileExtension";
+
+            //Lưu file vào thư mục storage/app/public/image với tên mới
+            $request->file('inputFile')->storeAs('public/images', $newFileName);
+
+            // Gán trường image của đối tượng task với tên mới
+            $post->image = $newFileName;
+        }
         $post->description = $request->description;
         $post->content = $request->content_post;
-        $post->user_id = $request->user_id;
+        $post->user_id = Auth::id();
         $post->category_id = $request->category_id;
         $post->save();
-        return redirect()->route('posts.index');
+        return redirect()->route('posts.detail',compact('id'));
 
     }
 

@@ -5,8 +5,8 @@
         <div class="row">
             <div class="col-12"><h1>Edit blog</h1></div>
             <div class="col-12">
-                <form method="post" action="{{ route('posts.update', $post->id) }}">
-                    @csrf
+                <form method="post" action="{{ route('posts.update', $post->id) }}" enctype="multipart/form-data">
+                    {{ csrf_field() }}
                     <div class="form-group">
                         <label>Title blog</label>
                         <input type="text" class="form-control" name="title" value="{{ $post->title }}" >
@@ -36,6 +36,16 @@
 
 
                         </script>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Category:</label>
+                        <select id="exampleInputEmail1" name="category_id">
+                            <option value="1">Sport</option>
+                            <option value="2">Music</option>
+                            <option value="3">Travel</option>
+                            <option value="4">Economy</option>
+                            <option value="5">Knowledge</option>
+                        </select>
                     </div>
                     <button type="submit" class="btn btn-primary">Edit</button>
                     <button class="btn btn-secondary" onclick="window.history.go(-1); return false;">Cancel</button>
