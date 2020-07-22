@@ -40,14 +40,21 @@
                         </script>
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Category</label>
-                        <input type="text" class="form-control" name="category_id" >
-                    </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                </form>
-            </div>
-        </div>
-    </div>
+                        <label for="exampleInputEmail1">Category:</label>
+                        <select id="exampleInputEmail1" name="category_id">
+                            <option value="1">Sport</option>
+                            <option value="2">Music</option>
+                            <option value="3">Travel</option>
+                            <option value="4">Economy</option>
+                            <option value="5">Knowledge</option>
+                        </select>
+                        <!--   <input type="text" class="form-control" name="category_id" > -->
+                       </div>
+                       <button type="submit" class="btn btn-primary">Submit</button>
+                   </form>
+               </div>
+           </div>
+       </div>
 @endsection
 
 

@@ -9,7 +9,7 @@
                     @csrf
                     <div class="form-group">
                         <label>Title blog</label>
-                        <input type="text" class="form-control" name="title" value="{{ $post->title }}" required>
+                        <input type="text" class="form-control" name="title" value="{{ $post->title }}" >
                     </div>
                     <div class="form-group">
                         <label for="inputFileName">Image</label>
@@ -25,7 +25,7 @@
                     </div>
                     <div class="form-group">
                         <label>Description</label>
-                        <input type="text" class="form-control" name="description" value="{{ $post->description }}" required>
+                        <input type="text" class="form-control" name="description" value="{{ $post->description }}">
                     </div>
                     <div class="form-group">
                         <label>Content</label>

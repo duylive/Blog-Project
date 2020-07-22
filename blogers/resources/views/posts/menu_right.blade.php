@@ -25,23 +25,23 @@
                 <div class="col-lg-6">
                     <ul class="list-unstyled mb-0">
                         <li>
-                            <a href="#">Web Design</a>
+                            <a href="#">Sport</a>
                         </li>
                         <li>
-                            <a href="#">HTML</a>
+                            <a href="#">Music</a>
                         </li>
                         <li>
-                            <a href="#">Freebies</a>
+                            <a href="#">Travel</a>
                         </li>
                     </ul>
                 </div>
                 <div class="col-lg-6">
                     <ul class="list-unstyled mb-0">
                         <li>
-                            <a href="#">JavaScript</a>
+                            <a href="#">Economy</a>
                         </li>
                         <li>
-                            <a href="#">CSS</a>
+                            <a href="#">Society</a>
                         </li>
                         <li>
                             <a href="#">Tutorials</a>

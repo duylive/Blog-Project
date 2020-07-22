@@ -18,9 +18,6 @@ Route::get('/', function () {
     return view('auth.login');
 });
 
-Route::get('/abc', function(){
-   return view('categories.master');
-});
 
 Route::prefix('categories')->group(function() {
    Route::get('/', 'CategoryController@index')-> name('categories.index');

@@ -13,7 +13,7 @@
                         <h4 class="card-title">{{$category->name}}</h4>
                     </div>
                     <div class="card-footer">
-                        <a href="#" class="btn btn-primary">All posts in topic</a>
+                        <a href="{{route('categories.detail', $category->id)}}" class="btn btn-primary">All posts in topic</a>
                     </div>
                 </div>
             </div>

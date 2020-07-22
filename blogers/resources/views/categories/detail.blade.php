@@ -1,6 +1,11 @@
 @extends('categories.master')
 @section('content')
-    @foreach($categories -> posts as $post)
+    @if(count($category -> posts)  == 0)
+        <tr>
+            <td colspan="4">Not posts in topic</td>
+        </tr>
+    @else
+        @foreach($category -> posts as $post)
         <div class="card mb-4">
             <img class="card-img-top" src="{{ asset('storage/images/' . $post->image) }}" alt="Card image cap"
                  style="width: 728px">
@@ -23,5 +28,5 @@
 
         </div>
     @endforeach
-    {{ $posts->appends(request()->query()) }}
+    @endif
 @endsection
