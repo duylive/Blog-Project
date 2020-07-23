@@ -25,26 +25,26 @@
                 <div class="col-lg-6">
                     <ul class="list-unstyled mb-0">
                         <li>
-                            <a href="#">Sport</a>
+                            <a href="{{route('categories.detail', $id = '1')}}">Sport</a>
                         </li>
                         <li>
-                            <a href="#">Music</a>
+                            <a href="{{route('categories.detail', $id = '2')}}">Music</a>
                         </li>
                         <li>
-                            <a href="#">Travel</a>
+                            <a href="{{route('categories.detail', $id = '3')}}">Travel</a>
                         </li>
                     </ul>
                 </div>
                 <div class="col-lg-6">
                     <ul class="list-unstyled mb-0">
                         <li>
-                            <a href="#">Economy</a>
+                            <a href="{{route('categories.detail', $id = '4')}}">Economy</a>
                         </li>
                         <li>
-                            <a href="#">Society</a>
+                            <a href="{{route('categories.detail', $id = '5')}}">Society</a>
                         </li>
                         <li>
-                            <a href="#">Tutorials</a>
+                            <a href="{{route('categories.index')}}">All topics</a>
                         </li>
                     </ul>
                 </div>
