@@ -1,5 +1,10 @@
 @extends('posts.master')
 @section('content')
+    @if($post->category == null)
+        <div class="col-12"><h1>News</h1></div>
+    @else
+        <div class="col-12"><h1>{{$post->category->name}} news</h1></div>
+        @endif
     <div class="card mb-4">
         <img class="card-img-top"  src="{{ asset('storage/images/' . $post->image) }}" alt="Card image cap" style="width: 728px">
         <div class="card-body">

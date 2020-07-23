@@ -25,7 +25,7 @@
 
 </head>
 
-<body>
+<body style="background: lightgoldenrodyellow">
 
 <!-- Navigation -->
 @include('posts.menu_top')
