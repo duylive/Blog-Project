@@ -20,7 +20,7 @@
 
 </head>
 
-<body>
+<body style="background: lightgoldenrodyellow">
 
 <!-- Navigation -->
 @include('categories.menu_top')
@@ -29,7 +29,7 @@
 <div class="container">
 
     <!-- Jumbotron Header -->
-    <header class="jumbotron my-4" style="background: pink">
+    <header class="jumbotron my-4" style="background: peachpuff">
         <h1 class="display-3">A Warm Welcome!</h1>
         <p class="lead">Writting and share anything you want.</p>
     </header>

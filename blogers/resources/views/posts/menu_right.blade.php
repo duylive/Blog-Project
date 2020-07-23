@@ -54,9 +54,15 @@
 
     <!-- Side Widget -->
     <div class="card my-4">
-        <h5 class="card-header">Side Widget</h5>
+        <h5 class="card-header">Information</h5>
         <div class="card-body">
-            You can put anything you want inside of these side widgets. They are easy to use, and feature the new Bootstrap 4 card containers!
+            Author : &nbsp;Nguyen Duy
+            <br>
+            Phone :  &nbsp;+84984945948
+            <br>
+            Email : &nbsp;&nbsp;&nbsp;duylive92@gmail.com
+            <br>
+            Github : &nbsp;https://github.com/duylive
         </div>
     </div>
 
