@@ -33,11 +33,11 @@
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 Số lượt xem: {{ $post->view_count }} <i style="font-size:16px" class="fa">&#xf06e;</i>
                             </div>
-
                         </div>
+                    @endforeach
+                @endif
             </div>
         </div>
     </div>
-    @endforeach
-    @endif
 @endsection
+
