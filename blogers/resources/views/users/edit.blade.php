@@ -37,7 +37,7 @@
                     </div>
                     <div class="form-group">
                         <label>Role</label>
-                        <input type="text" class="form-control" name="role" value="{{ $user->role }}" required>
+                        <input type="text" class="form-control" name="role" value="{{ $user->role }}" >
                     </div>
                     <button type="submit" class="btn btn-primary">Edit</button>
                     <button class="btn btn-secondary" onclick="window.history.go(-1); return false;">Hủy</button>

@@ -14,16 +14,21 @@
                             <small>{{$user->address}}</small>
                             <p>
                                 <i class="glyphicon glyphicon-envelope"></i>{{$user->email}}
-                                <br />
+                                <br/>
                                 <i class="glyphicon glyphicon-globe"></i>{{$user->address}}
-                                <br />
+                                <br/>
                                 <i class="glyphicon glyphicon-gift"></i>{{$user->birthday}}
                             </p>
 
                             <!-- Split button -->
                             <div class="btn-group">
-                                <a href="{{ route('users.edit', $user->id) }}" class="btn btn-primary">Edit</a>
-                                <a href="{{ route('users.destroy', $user->id) }}" class="btn btn-danger" onclick="return confirm('You want to delete ?')">Delete</a>
+                                @if(Auth::user() == null)
+                                    <hr>
+                                @elseif(Auth::user()->id == $user->id)
+                                    <a href="{{ route('users.edit', $user->id) }}" class="btn btn-primary">Edit</a>
+                                    <a href="{{ route('users.destroy', $user->id) }}" class="btn btn-danger"
+                                       onclick="return confirm('You want to delete ?')">Delete</a>
+                                @endif
                             </div>
 
                         </div>
